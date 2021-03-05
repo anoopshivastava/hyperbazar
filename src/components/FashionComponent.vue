@@ -1,6 +1,6 @@
 <template>
    <section class="fashion">
-               <Heading/>
+               <Heading headtitle="FASHION"/>
                 <div class="container">
                     <div class="fashion_wrap">
                         <div class="fashion_cell">

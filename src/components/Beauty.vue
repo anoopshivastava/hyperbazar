@@ -2,7 +2,7 @@
    
    <Add/>
    <Navigation/>
-   <Heading/>
+   <Heading headtitle="BEAUTY"/>
      <ContentWrapper>
             <BeautyTop/>
     </ContentWrapper>

@@ -1,6 +1,6 @@
 <template>
     <section class="culture">
-             <Heading/>
+             <Heading headtitle="CULTURE"/>
                 <div class="container">
                     <div class="culture_top_sec">
                         <div class="culture_top_left">
