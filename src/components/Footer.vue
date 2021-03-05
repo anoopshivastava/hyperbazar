@@ -92,27 +92,16 @@
 </template>
 
 <script>
-<<<<<<< HEAD
 // import {RESOURCE_RELATIVE_PATH} from '../utils/constants'
-=======
-
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 
 export default {
   name: 'Footer',
   data(){
        return {
-<<<<<<< HEAD
                   footerlogo: `./images/footerlogo.png`,
                   footerfacebook: `./images/footericon1.png`,
                   footerinstagram: `./images/footericon2.png`,
                   footertiwtter: `./images/footericon3.png`,
-=======
-                  footerlogo: `/images/footerlogo.png`,
-                  footerfacebook: `/images/footericon1.png`,
-                  footerinstagram: `/images/footericon2.png`,
-                  footertiwtter: `/images/footericon3.png`,
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
                  
               }
   }
