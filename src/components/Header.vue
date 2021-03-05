@@ -45,18 +45,31 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 // import {RESOURCE_RELATIVE_PATH} from '../utils/constants'
+=======
+
+>>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 
 export default {
   name: 'Header',
   data(){
        return {
+<<<<<<< HEAD
                   logo: `./images/logo.png`,
                   facebook: `./images/facebook.png`,
                   instagram: `./images/instrgram.png`,
                   tiwtter: `./images/twitter.png`,
                   strickyLogo:`./images/stricylogo.png`,
                   search:`./images/search.png`,
+=======
+                  logo: `/images/logo.png`,
+                  facebook: `/images/facebook.png`,
+                  instagram: `/images/instrgram.png`,
+                  tiwtter: `/images/twitter.png`,
+                  strickyLogo:`/images/stricylogo.png`,
+                  search:`/images/search.png`,
+>>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
               }
   }
   
@@ -65,6 +78,7 @@ export default {
 
 <style>
  @import '../assets/css/global.css';
+<<<<<<< HEAD
 
 
 
@@ -89,6 +103,8 @@ export default {
 .mobile_header {
     display: none;
 }
+=======
+>>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 .upperheader {
     padding: 20px 0 7px;
     background: #fff;
@@ -99,11 +115,50 @@ export default {
     height: 76px;
     width: 267px;
 }
+<<<<<<< HEAD
 .bottomheader {
     background: #f6f6f6;
 }
 .menu a,
 .menu a:hover {
+=======
+.follow_us {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.follow_us label {
+    font-size: 16px;
+    font-family: Georgia;
+    font-weight: 400;
+    color: #000;
+    margin-right: 23px;
+}
+.follow_us a {
+    margin-right: 38px;
+}
+.follow_us a, .follow_us label {
+    display: inline-block;
+    vertical-align: middle;
+}
+.follow_us a:last-child {
+    margin-right: 0;
+}
+
+.bottomheader {
+    background: #f6f6f6;
+}
+
+.strickylogo {
+    width: 152px;
+    height: 42px;
+    margin-right: 36px;
+    margin-top: 8px;
+    display: none;
+}
+.menu a, .menu a:hover {
+>>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
     display: inline-block;
     padding: 17px 12px;
     text-transform: uppercase;
@@ -115,9 +170,14 @@ export default {
     text-decoration: none;
     position: relative;
 }
+<<<<<<< HEAD
 .menu a.router-link-active::after,
 .menu a:hover::after {
     content: "";
+=======
+.menu a.router-link-active::after, .menu a:hover::after {
+    content: '';
+>>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -126,8 +186,12 @@ export default {
     height: 4px;
     background: #b30010;
 }
+<<<<<<< HEAD
 .menu a:hover:last-child,
 .menu a:last-child {
+=======
+.menu a:hover:last-child, .menu a:last-child {
+>>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
     margin-right: 0;
 }
 .searchicon {
@@ -137,6 +201,7 @@ export default {
     transform: translateY(-50%);
     right: 0;
 }
+<<<<<<< HEAD
 .follow_us {
     position: absolute;
     right: 10px;
@@ -178,4 +243,6 @@ export default {
 .fixed .strickylogo {
     display: block;
 }
+=======
+>>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 </style>

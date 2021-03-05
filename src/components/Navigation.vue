@@ -8,12 +8,19 @@
             </div>
 </template>
 <script>
+<<<<<<< HEAD
 // import {RESOURCE_RELATIVE_PATH} from '../utils/constants'
+=======
+>>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 export default {
     name:'Navigation',
      data(){
         return {
+<<<<<<< HEAD
             backarrow: `./images/backarrow.png`,
+=======
+            backarrow: `/images/backarrow.png`,
+>>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
         } 
     }
 }

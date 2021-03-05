@@ -11,12 +11,19 @@
     </div>
 </template>
 <script>
+<<<<<<< HEAD
 // import {RESOURCE_RELATIVE_PATH} from '../utils/constants'
+=======
+>>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 export default {
     name:'TopStory',
       data(){
        return {
+<<<<<<< HEAD
                   userpic: `./images/userpic.png`,
+=======
+                  userpic: `/images/userpic.png`,
+>>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
                  
                  
               }
