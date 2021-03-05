@@ -1,9 +1,10 @@
 <template>
-    <h1 class="tittle_text"><span>FASHION</span></h1>
+    <h1 class="tittle_text"><span>{{headtitle}}</span></h1>
 </template>
 <script>
 export default {
-    name:'Heading'
+    name:'Heading',
+    props:['headtitle']
 }
 </script>
 <style scoped>

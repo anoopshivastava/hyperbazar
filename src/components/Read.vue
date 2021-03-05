@@ -18,25 +18,15 @@
     </div>
 </template>
 <script>
-<<<<<<< HEAD
 // import {RESOURCE_RELATIVE_PATH} from '../utils/constants'
-=======
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 export default {
     name:'Read',
      data(){
        return {
-<<<<<<< HEAD
                   sidePic1: `./images/sidePic1.png`,
                   sidePic2: `./images/sidePic2.png`,
                   sidePic3: `./images/sidePic3.png`,
                   sidePic4: `./images/sidePic4.png`,
-=======
-                  sidePic1: `/images/sidePic1.png`,
-                  sidePic2: `/images/sidePic2.png`,
-                  sidePic3: `/images/sidePic3.png`,
-                  sidePic4: `/images/sidePic4.png`,
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
                  
               }
   }

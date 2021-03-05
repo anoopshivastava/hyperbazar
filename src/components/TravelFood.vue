@@ -1,6 +1,6 @@
 <template>
     <section class="travel_food">
-               <Heading/>
+               <Heading headtitle="TRAVEL & FOOD"/>
                 <div class="container">
                     <div class="travel_inner">
                         <div class="travel_left">
@@ -37,10 +37,7 @@
 </template>
 <script>
 import Heading from './Heading.vue'
-<<<<<<< HEAD
 // import {RESOURCE_RELATIVE_PATH} from '../utils/constants'
-=======
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 export default {
     name:'TravelFood',
      components:{
@@ -48,17 +45,10 @@ export default {
                 },
    data(){
         return{
-<<<<<<< HEAD
                foodmain: `./images/foodmain.png`,
                food1: `./images/food1.png`,
                food2: `./images/food2.png`,
                food3: `./images/food3.png`,
-=======
-               foodmain: `/images/foodmain.png`,
-               food1: `/images/food1.png`,
-               food2: `/images/food2.png`,
-               food3: `/images/food3.png`,
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
         }
     }
 }

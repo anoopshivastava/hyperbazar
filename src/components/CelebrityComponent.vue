@@ -1,6 +1,6 @@
 <template>
     <section class="fashion Celebrity">
-                <Heading/>
+                <Heading headtitle="CELEBRITY"/>
                 <div class="container">
                     <div class="fashion_wrap">
                         <div class="fashion_cell">
@@ -42,10 +42,7 @@
 </template>
 <script>
 import Heading from './Heading.vue';
-<<<<<<< HEAD
 // import {RESOURCE_RELATIVE_PATH} from '../utils/constants'
-=======
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 export default {
     name:'CelebrityComponent',
      components:{
@@ -53,17 +50,10 @@ export default {
                 },
     data(){
         return{
-<<<<<<< HEAD
                cel1: `./images/cel1.png`,
                cel2: `./images/cell2.png`,
                cel3: `./images/cell3.png`,
                cel4: `./images/cell4.png`,
-=======
-               cel1: `/images/cel1.png`,
-               cel2: `/images/cell2.png`,
-               cel3: `/images/cell3.png`,
-               cel4: `/images/cell4.png`,
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
         }
     }
 }
