@@ -71,29 +71,17 @@
     </div>
 </template>
 <script>
-<<<<<<< HEAD
 // import {RESOURCE_RELATIVE_PATH} from '../utils/constants'
-=======
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 export default {
     name:'CelebrityList',
      data(){
         return {
-<<<<<<< HEAD
             authorpic1: `./images/authorpic1.png`,
             authorpic2: `./images/authorpic2.png`,
             authorpic3: `./images/authorpic3.png`,
             authorpic4: `./images/authorpic4.png`,
             authorpic5: `./images/authorpic5.png`,
             authorpic6: `./images/authorpic6.png`,
-=======
-            authorpic1: `/images/authorpic1.png`,
-            authorpic2: `/images/authorpic2.png`,
-            authorpic3: `/images/authorpic3.png`,
-            authorpic4: `/images/authorpic4.png`,
-            authorpic5: `/images/authorpic5.png`,
-            authorpic6: `/images/authorpic6.png`,
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 
         } 
     }

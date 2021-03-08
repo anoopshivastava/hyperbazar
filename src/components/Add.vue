@@ -4,19 +4,12 @@
             </div>
 </template>
 <script>
-<<<<<<< HEAD
 // import {RESOURCE_RELATIVE_PATH} from '../utils/constants'
-=======
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 export default {
     name:'Add',
     data(){
         return {
-<<<<<<< HEAD
             add: `./images/add.png`,
-=======
-            add: `/images/add.png`,
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
         }
     }
 }

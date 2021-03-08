@@ -180,3 +180,9 @@ ul {
 ul li{
 	list-style-type:none;
 }
+
+@media only screen and (max-width:767px){
+	body {
+		padding-top: 56px;
+	}
+}

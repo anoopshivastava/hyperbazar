@@ -43,21 +43,13 @@
     </div>
 </template>
 <script>
-<<<<<<< HEAD
 // import {RESOURCE_RELATIVE_PATH} from '../utils/constants'
-=======
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
 export default {
     name:'Description',
         data(){
        return {
-<<<<<<< HEAD
                   storypic1: `./images/storypic1.png`,
                   storypic2: `./images/storypic2.png`,
-=======
-                  storypic1: `/images/storypic1.png`,
-                  storypic2: `/images/storypic2.png`,
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
                  
               }
   }

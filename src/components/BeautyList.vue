@@ -79,21 +79,12 @@ export default {
     name:'BeautyList',
     data(){
         return{
-<<<<<<< HEAD
             section1: `./images/section1.png`,
             section2: `./images/section2.png`,
             section3: `./images/section3.png`,
             section4: `./images/section4.png`,
             section5: `./images/section5.png`,
             section6: `./images/section6.png`,
-=======
-            section1: `/images/section1.png`,
-            section2: `/images/section2.png`,
-            section3: `/images/section3.png`,
-            section4: `/images/section4.png`,
-            section5: `/images/section5.png`,
-            section6: `/images/section6.png`,
->>>>>>> cafe13869416d8bbbc315ab4aac2326d10a8cbf2
         }
     }
 }
